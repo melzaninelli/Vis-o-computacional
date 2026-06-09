@@ -40,7 +40,6 @@ while True:
     cv2.putText(frame, texto_fps, (10, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 1, cv2.LINE_AA)
     cv2.putText(frame, texto_res, (10, 40), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 1, cv2.LINE_AA)
 
-    #esse nome é provisório tá kkkkk
     cv2.imshow("Kinect 2 - Aperte '1' para sair", frame)
 
     if cv2.waitKey(1) == ord('1'):
